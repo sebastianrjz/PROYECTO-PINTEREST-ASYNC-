@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  height: 15vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  gap: 1.5rem;
+}
+
+header > h1 {
+  background-color: var(--logo);
+  min-width: 30px;
+  height: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 50%;
+  color: var(--color-background);
+  cursor: pointer;
+}
+
+header input {
+  padding: 1rem 1.4rem;
+  border-radius: 2rem;
+  flex-grow: 1;
+  background-color: var(--secondary);
+  border: none;
+  font-size: 1rem;
+}
+
+header button {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  min-height: 28px;
+  min-width: 28px;
+  object-fit: cover;
+  border-radius: 90%;
+}
+
+header button:hover {
+  background-color: var(--secondary);
+}
+
+header .icon {
+  filter: contrast(30%);
+}
